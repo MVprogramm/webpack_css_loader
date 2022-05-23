@@ -1,0 +1,31 @@
+{
+  "name": "webpack_css_loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack -d --devtools eval-source-maps -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVprogramm/webpack_css_loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVprogramm/webpack_css_loader/issues"
+  },
+  "homepage": "https://github.com/MVprogramm/webpack_css_loader#readme",
+  "devDependencies": {
+    "css-loader": "^3.3.2",
+    "file-loader": "^5.0.2",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
